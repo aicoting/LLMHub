@@ -1,11 +1,27 @@
-# 什么是RAG？一文搞懂检索增强生成技术
+大家好，我准备开启一个全新的系列，来聊聊——RAG（Retrieval-Augmented Generation）系统的底层设计与工程实现。
+
+<font style="color:rgb(25, 27, 31);">你可能已经用过各种“大模型加检索”的应用：AI 助手能秒答公司文档问题、客服机器人能一口气分析十几页合同、技术问答系统好像“查阅过全网资料”……但你有没有想过：这些模型到底是怎么“知道”你提的问题答案的？模型为什么能记住一整本文档？我们把知识库接入大模型，到底做了什么？</font>
+
+<font style="color:rgb(25, 27, 31);">这一切的背后，离不开三个字母：</font>**RAG**<font style="color:rgb(25, 27, 31);">。</font>
+
+<font style="color:rgb(25, 27, 31);">这个系列将拆解构建一个 RAG 系统的全流程，深入剖析每个关键步骤的逻辑、技术选型与工程落地难点：</font>
+
++ <font style="color:rgb(25, 27, 31);">RAG 实战指南（一）：</font>[什么是RAG？一文搞懂检索增强生成技术](https://zhuanlan.zhihu.com/p/1912270367357122436)
++ <font style="color:rgb(25, 27, 31);">RAG 实战指南（二）：</font>[一文搞懂RAG 的文档解析](https://zhuanlan.zhihu.com/p/1912549174966194672)
++ <font style="color:rgb(25, 27, 31);">RAG 实战指南（三）：</font>[一文搞懂RAG 的切分策略](https://zhuanlan.zhihu.com/p/1912878600853623201)
++ <font style="color:rgb(25, 27, 31);">RAG 实战指南（四）：</font>[RAG-embedding篇](https://zhuanlan.zhihu.com/p/1912910452339484544)
++ <font style="color:rgb(25, 27, 31);">RAG 实战指南（五）：</font>[RAG信息检索-如何让模型找到‘对的知识’](https://zhuanlan.zhihu.com/p/1912920089109430794)
+
+<font style="color:rgb(25, 27, 31);">此外，所有相关源码示例、流程图、模型配置与知识库构建技巧，我也将持续更新在 Github：</font>[**<font style="color:rgb(25, 27, 31);">LLMHub</font>**](https://github.com/zhangting-hit/LLMHub)<font style="color:rgb(25, 27, 31);">，欢迎关注收藏！</font>
+
+## <font style="color:rgb(25, 27, 31);">1.前言</font>
 在大语言模型（LLM）如ChatGPT、Claude、Gemini日益强大的今天，人们希望它们不仅能“生成”，还要“准确生成”。然而，LLM训练的数据往往是静态的、封闭的，这使得它们在面对**时效性强、专业性高、上下文复杂**的问题时，力不从心。
 
 在有些时候，企业内部或者事业部门内部的数据是不允许公开上传的，那么也就没有办法享受到大模型的服务，生产力也得不到解放。
 
 这时，RAG（Retrieval-Augmented Generation，检索增强生成）应运而生。它是连接“生成能力”与“外部知识”的桥梁，让LLM不再是“闭门造车”，而成为真正的知识型智能体。
 
-## 一、RAG的基本原理
+## 2.RAG的基本原理
 RAG是一种通过**“先检索、后生成”**的方式，是一个提升语言模型生成准确性的技术框架。其核心流程如下：
 
 1. **Query输入**：用户提出一个问题或任务。比如我问“明天的天气怎么样”，大语言模型大概率不会知道明天的天气，因为训练数据时间范围是今天前。
@@ -14,7 +30,7 @@ RAG是一种通过**“先检索、后生成”**的方式，是一个提升语�
 
 简单来说，RAG把**“我说我知道的”**变成**“我先当自己不知道”**->**"看看我的背包里有什么知识"**->**"哎找到了"**->**"总结一下再说"**。
 
-## 二、为什么需要RAG？
+## 3.为什么需要RAG？
 大模型有知识盲点、时间滞后，原因在于：
 
 + 训练数据是静态的，无法获取实时信息；
@@ -23,7 +39,9 @@ RAG是一种通过**“先检索、后生成”**的方式，是一个提升语�
 
 RAG通过引入检索机制，可以实时接入外部信息，同时精准聚焦专业文档，显著降低模型幻觉率。
 
-## 三、RAG的技术架构
+## 4.RAG的技术架构
+
+
 ![](https://cdn.nlark.com/yuque/0/2025/png/28454971/1748700260677-c6e5149b-7cac-4d11-a8af-3c65da8fb68f.png)
 
 RAG的系统主要分为两个核心模块：**Retriever + Generator**，可进一步细化为以下几部分：
@@ -54,9 +72,19 @@ RAG是一项将“语言生成”与“知识检索”紧密结合的关键技�
 
 文中图片来自
 
+[图解 RAG 的 5 种分块策略 - 53AI-AI知识库|大模型知识库|大模型训练|智能体开发](https://www.53ai.com/news/RAG/2025060181652.html)
+
 [一图了解RAG的基本流程 - 小红书](https://www.xiaohongshu.com/explore/67af37c3000000002900f907?app_platform=android&ignoreEngage=true&app_version=8.84.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBXL6AwaRxPwsBEfHd-b8XkIXnLp5yeI7-4atEWq64LaM=&author_share=1&xhsshare=WeixinSession&shareRedId=N0s4MUQ5NT82NzUyOTgwNjY0OTdGNUxN&apptime=1748700028&share_id=cd5eaa214b4e4c4b99cd2cecadfc33e1&share_channel=wechat)
 
 [RAG 方案体系介绍 - 小红书](https://www.xiaohongshu.com/explore/683728b1000000002102c116?app_platform=android&ignoreEngage=true&app_version=8.84.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CB3GY25A_q4w1GcrSqWTlS6elqol_3FVR_pJLNPnLW5NQ=&author_share=1&xhsshare=WeixinSession&shareRedId=N0s4MUQ5NT82NzUyOTgwNjY0OTdGNUxN&apptime=1748684044&share_id=0df411b85dd544cfb595808cd4988f52&share_channel=wechat)
 
 非常感谢，如有侵权请联系删除！
+
+
+
+关于深度学习和大模型相关的知识和前沿技术更新，请关注公众号`coting`!
+
+
+
+![](https://cdn.nlark.com/yuque/0/2025/png/28454971/1748767076204-d38eec84-a324-42d8-acae-82a478282154.png)
 
