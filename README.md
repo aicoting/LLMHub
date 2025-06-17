@@ -25,7 +25,7 @@
     - 🪄 [经典模型](./deep-learning/经典模型/)
         - 🐎 [RNN原理](./deep-learning/经典模型/RNN.md)
         - 🐏 [LSTM&GRU原理](./deep-learning/经典模型/LSTM&GRU.md)
-        - 🐂 [Transformer原理](./deep-learning/经典模型/Transformer.md)
+        - 🦈 [Transformer原理](./deep-learning/经典模型/Transformer.md)
             - 🐳[一览Transformer整体架构](./deep-learning/经典模型/transformer/一览Transformer整体架构.md)
             - 🐋[Transformer——Attention怎么实现集中注意力](./deep-learning/经典模型/transformer/Transformer——Attention怎么实现集中注意力.md)
             - 🐬[Transformer——FeedForward模块在干什么？](./deep-learning/经典模型/transformer/Transformer——FeedForward模块在干什么？.md)
