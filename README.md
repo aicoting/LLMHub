@@ -2,7 +2,7 @@
  * @Author: zhangting
  * @Date: 2025-05-22 11:37:41
  * @LastEditors: Do not edit
- * @LastEditTime: 2025-06-22 10:01:55
+ * @LastEditTime: 2025-07-03 15:35:11
  * @FilePath: /zhangting/LLMHub/README.md
 -->
 # LLMHub
@@ -60,5 +60,9 @@
 
 
 ![image](./img/微信公众号.png)
+
+欢迎加群交流
+
+![image](./img/拿个大模型offer群聊.png)
 
 
