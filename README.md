@@ -2,7 +2,7 @@
  * @Author: zhangting
  * @Date: 2025-05-22 11:37:41
  * @LastEditors: Do not edit
- * @LastEditTime: 2025-09-17 11:36:03
+ * @LastEditTime: 2025-09-29 17:34:14
  * @FilePath: /zhangting/LLMHub/README.md
 -->
 # LLMHub
@@ -126,6 +126,14 @@
             - 🦸[deepseek_v2](./paper/DeepSeek/deepseek_v2.pdf)
             - 🦸‍♂️[deepseek_v3](./paper/DeepSeek/deepseek_v3.pdf)
             - 🦸‍♀️[deepseek_r1](./paper/DeepSeek/deepseek_r1.pdf)
+- 🫐 [AI Infra](./AI%20Infra/)
+    - 🍅 [AI Infra-为什么AI需要专属的基础设施？](./AI%20Infra/AI%20Infra-为什么AI需要专属的基础设施？.md)
+    - 🫒 [AI训练与推理的硬件需求有什么区别？](./AI%20Infra/AI训练与推理的硬件需求有什么区别？.md)
+    - 🍆 [GPU与TPU：AI计算硬件的核心对比](./AI%20Infra/GPU与TPU：AI计算硬件的核心对比.md)
+    - 🌽 [AI训练要的数据这么多，怎么存？](./AI%20Infra/AI训练要的数据这么多，怎么存？.md)
+    - 🌶️ [AI训练中的混合精度计算技术详解](./AI%20Infra/AI训练中的混合精度计算技术详解.md)
+    - 🫑 [一文搞懂量化、剪枝和知识蒸馏都是什么？](./AI%20Infra/一文搞懂量化、剪枝和知识蒸馏都是什么？.md)
+    - 🍄 [AI模型部署：从容器化到云原生架构](./AI%20Infra/AI模型部署：从容器化到云原生架构.md)
 
 
 正在更新ing，如果小伙伴对其他内容感兴趣欢迎联系我们😊😊！
