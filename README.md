@@ -2,7 +2,7 @@
  * @Author: zhangting
  * @Date: 2025-05-22 11:37:41
  * @LastEditors: Do not edit
- * @LastEditTime: 2025-09-29 17:34:14
+ * @LastEditTime: 2025-10-14 11:43:22
  * @FilePath: /zhangting/LLMHub/README.md
 -->
 # LLMHub
@@ -134,6 +134,14 @@
     - 🌶️ [AI训练中的混合精度计算技术详解](./AI%20Infra/AI训练中的混合精度计算技术详解.md)
     - 🫑 [一文搞懂量化、剪枝和知识蒸馏都是什么？](./AI%20Infra/一文搞懂量化、剪枝和知识蒸馏都是什么？.md)
     - 🍄 [AI模型部署：从容器化到云原生架构](./AI%20Infra/AI模型部署：从容器化到云原生架构.md)
+- 💰 [分布式训练](./分布式训练/)
+    - 🪙 [数据并行VS模型并行VS混合并行](./分布式训练/数据并行VS模型并行VS混合并行.md)
+    - 💴 [分布式训练原理与基础架构解析](./分布式训练/分布式训练原理与基础架构解析.md)
+    - 💵 [数据并行训练实践：PyTorch&TensorFlow](./分布式训练/数据并行训练实践：PyTorch&TensorFlow.md)
+    - 💶 [模型并行训练策略：张量并行、流水线并行与混合并行](./分布式训练/模型并行训练策略：张量并行、流水线并行与混合并行.md)
+    - 💷 [Zero Redundancy Optimizer (ZeRO) 系列解析](./分布式训练/Zero%20Redundancy%20Optimizer%20(ZeRO)%20系列解析.md)
+    - 💸 [Horovod 与 NCCL 的分布式通信优化详解](./分布式训练/Horovod%20与%20NCCL%20的分布式通信优化详解.md)
+    - 💳 [大模型分布式训练框架对比与实践](./分布式训练/大模型分布式训练框架对比与实践.md)
 
 
 正在更新ing，如果小伙伴对其他内容感兴趣欢迎联系我们😊😊！
