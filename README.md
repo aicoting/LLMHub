@@ -2,7 +2,7 @@
  * @Author: zhangting
  * @Date: 2025-05-22 11:37:41
  * @LastEditors: Do not edit
- * @LastEditTime: 2025-10-14 11:43:22
+ * @LastEditTime: 2025-10-28 15:54:57
  * @FilePath: /zhangting/LLMHub/README.md
 -->
 # LLMHub
@@ -110,6 +110,19 @@
         - 😜[RAG 信息检索：如何让模型找到‘对的知识’](./大模型/RAG/doc/RAG%20信息检索：如何让模型找到‘对的知识’.md)
     - 📑 [Data-Juicer原理及使用](./大模型/Data-Juicer.md)
     - 🔔 [论文/技术报告](./paper)
+        - 🧙‍♀️[神经网络经典论文](./paper/卷积神经网络经典论文/)
+            - 🧙‍♂️[AlexNet](./paper/卷积神经网络经典论文/AlexNet.pdf)
+            - 🧙[lenet](./paper/卷积神经网络经典论文/lenet.pdf)
+            - 🧙[densenet](./paper/卷积神经网络经典论文/densenet.pdf)
+            - 🦸[efficientnet](./paper/卷积神经网络经典论文/efficientnet.pdf)
+            - 🦸‍♂️[resnet](./paper/卷积神经网络经典论文/resnet.pdf)
+            - 🦸‍♀️[GRU](./paper/卷积神经网络经典论文/GRU.pdf)
+            - 🧙‍♂️[LSTM](./paper/卷积神经网络经典论文/LSTM.pdf)
+            - 🦸[attention](./paper/卷积神经网络经典论文/attention.pdf)
+            - 🦸‍♂️[seq2seq](./paper/卷积神经网络经典论文/seq2seq.pdf)
+            - 🦸‍♀️[GAT](./paper/卷积神经网络经典论文/GAT.pdf)
+            - 🦸[DDPM](./paper/卷积神经网络经典论文/DDPM.pdf)
+            - 🦸‍♂️[bert](./paper/卷积神经网络经典论文/bert.pdf)
         - 🏀 [GPT](./paper/gpt/)
             - 🎱[GPT1](./paper/gpt/gpt1.pdf)
             - ⚽ [GPT2](./paper/gpt/gpt2.pdf)
