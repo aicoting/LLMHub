@@ -7,11 +7,7 @@
 -->
 # AIHub
 
-推荐在线阅读：<p align="center">
-  <a href="https://aicoting.cn">
-    <img src="https://img.shields.io/badge/👉-aicoting官方ai网站-FF6600?style=for-the-badge&logo=appveyor&logoColor=white"/>
-  </a>
-</p>
+推荐在线阅读：<a href="https://aicoting.cn"></a>
 
 ![image](./img/LLMHub.png)
 本项目旨在系统整理与分享AI与大语言模型（LLM）相关的核心知识、面试内容、实际应用场景及部署技巧。内容涵盖从基础概念、主流模型对比、Prompt 设计、模型微调到工程部署的完整流程，帮助开发者、研究者以及求职者高效掌握大模型领域的关键能力。
@@ -205,14 +201,14 @@
 &emsp;🤔 深夜讨论模型结构优化？\
 &emsp;💡 头脑风暴科研点子？\
 &emsp;🧪 分享面试、比赛、科研经验？\
-那欢迎加入交流群【AI进阶之路】\
+那欢迎加入交流群【AI进阶之路】
 
 
 
 在这里我们一起：\
 &emsp;👉交流模型优化思路、训练加速技巧、复现经验；\
 &emsp;👉分享博客内容背后的思考，探讨代码设计与实验细节；\
-&emsp;👉吹水科研生活，也卷一卷代码人生。\
+&emsp;👉吹水科研生活，也卷一卷代码人生。
 
 
 
