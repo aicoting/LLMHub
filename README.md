@@ -231,6 +231,4 @@
 
 
 ## ⭐ Star History
-
-[![Star History Chart](https://www.star-history.com/#aicoting/AIHub&type=date&legend=top-left)](https://www.star-history.com/#aicoting/AIHub&type=date&legend=top-left)
-
+[![Star History Chart](https://api.star-history.com/svg?repos=aicoting/AIHub&type=Date)](https://star-history.com/#aicoting/AIHub&Date)
