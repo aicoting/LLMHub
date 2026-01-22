@@ -229,3 +229,8 @@
 
 那就关注我吧，我们一起成长，一起搞事情！ 
 
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/#aicoting/AIHub&type=date&legend=top-left)](https://www.star-history.com/#aicoting/AIHub&type=date&legend=top-left)
+
