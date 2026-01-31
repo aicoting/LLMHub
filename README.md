@@ -5,7 +5,27 @@
  * @LastEditTime: 2025-10-28 15:58:21
  * @FilePath: /zhangting/LLMHub/README.md
 -->
-# AIHub
+<p align="center">
+  <h2 align="center">AIHub</h2>
+  <p align="center">
+    一个包含机器学习、深度学习与大语言模型（LLM）知识的最全八股！
+    <br/>
+    <br/>
+    <a href="https://aicoting.cn"><strong>» 推荐aicoting网站在线阅读 »</strong></a>
+    <br/>
+  </p>
+</p>
+<p align="center">
+  <a href="https://github.com/aicoting/AIHub/stargazers">
+    <img src="https://img.shields.io/github/stars/aicoting/AIHub?color=F8B195&logo=github&style=for-the-badge" alt="Github stars">
+  </a>
+  <a href="https://pypi.org/project/AIHub/">
+    <img src="https://img.shields.io/pypi/v/AIHub?color=F67280&logo=pypi&logoColor=white&style=for-the-badge" alt="PyPI">
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/aicoting/AIHub?color=C06C84&style=for-the-badge" alt="License">
+  </a>
+</p>
 
 推荐在线阅读：<a href="https://aicoting.cn">aicoting网站</a>
 
