@@ -205,6 +205,33 @@
     - 💸 [Horovod 与 NCCL 的分布式通信优化详解](./分布式训练/Horovod%20与%20NCCL%20的分布式通信优化详解.md)
     - 💳 [大模型分布式训练框架对比与实践](./分布式训练/大模型分布式训练框架对比与实践.md)
 
+## 🧭 网站概览  
+
+<div align="center">  
+
+<h3 align="center">网站主页</h3>  
+
+![image](./img/网站主页.png)
+
+
+<h3 align="center">Python篇</h3>  
+
+![image](./img/python篇.png)
+
+<h3 align="center">机器学习篇</h3>  
+
+![image](./img/机器学习篇.png)
+
+<h3 align="center">深度学习篇</h3>  
+
+![image](./img/深度学习篇.png)
+
+<h3 align="center">大模型篇</h3>  
+
+![image](./img/大模型篇.png)
+
+</div>
+
 
 正在更新ing，如果小伙伴对其他内容感兴趣欢迎联系我们😊😊！
 
