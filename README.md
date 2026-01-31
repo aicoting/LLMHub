@@ -11,6 +11,7 @@
     一个包含机器学习、深度学习与大语言模型（LLM）知识的最全八股！
     <br/>
     <br/>
+    <a href="https://aicoting.cn"><strong>» 推荐aicoting网站在线阅读 »</strong></a>
     <a href="https://aicoting.cn">
         <img src="https://img.shields.io/badge/👉-aicoting官方ai网站-FF6600?style=for-the-badge&logo=appveyor&logoColor=white"/>
     </a>
@@ -29,6 +30,9 @@
   <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/aicoting/AIHub?color=C06C84&style=for-the-badge" alt="License">
   </a>
+</p>
+
+<p align="center">
   <a href="https://www.zhihu.com/people/wu-wang-wo-24-38"><img src="https://img.shields.io/badge/ZhiHu-知乎-8c36db" /></a>&emsp;
   <a href="https://space.bilibili.com/3546955336649590?spm_id_from=333.1387.0.0"><img src="https://img.shields.io/badge/Bilibili-B站-ff69b4" /></a>&emsp;
   <a href="https://juejin.cn/user/933911964427818"><img src="https://img.shields.io/badge/Juejin-掘金-FF6600?style=flat&logo=juejin&logoColor=white" /></a>&emsp;
