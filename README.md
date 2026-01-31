@@ -12,9 +12,6 @@
     <br/>
     <br/>
     <a href="https://aicoting.cn"><strong>» 推荐aicoting网站在线阅读 »</strong></a>
-    <a href="https://aicoting.cn">
-        <img src="https://img.shields.io/badge/👉-aicoting官方ai网站-FF6600?style=for-the-badge&logo=appveyor&logoColor=white"/>
-    </a>
     <br/>
   </p>
 </p>
