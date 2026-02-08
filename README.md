@@ -103,7 +103,6 @@
         - 🐡[优化算法](./deep-learning/三、神经网络基础/3.6%20优化算法.md)
         - 🦈[学习率策略](./deep-learning/三、神经网络基础/3.7%20学习率策略.md)
         - 🐙[正则化](./deep-learning/三、神经网络基础/3.8%20正则化.md)
-        - 🐟[FlashDecoding_让大模型推理提速的关键突破](./deep-learning/经典模型/transformer/FlashDecoding_让大模型推理提速的关键突破.md)
     - 🐳 [深度网络结构](./deep-learning/四、深度网络结构/)
         - 🦐 [卷积神经网络](./deep-learning/四、深度网络结构/4.1%20卷积神经网络.md)
         - 🦑 [卷积层](./deep-learning/四、深度网络结构/4.2%20卷积层.md)
